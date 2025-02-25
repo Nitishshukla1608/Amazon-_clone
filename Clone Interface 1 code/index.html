@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazaon Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav_logo border">
+          <div class="logo">
+            <img src="amazon_logo.png" alt="amazon_logo" />
+          </div>
+        </div>
+
+        <div class="nav_address border">
+          <p class="Address1">Deliver to</p>
+          <div class="address_icon">
+            <i class="fa-solid fa-location-dot" id="addresslogo"></i>
+            <p class="Address2">India</p>
+          </div>
+        </div>
+
+        <div class="nav_search">
+          <select class="navoption">
+            <option class="options">All</option>
+            <option class="options">All Departments</option>
+            <option class="options">Automotive</option>
+            <option class="options">Baby</option>
+            <option class="options">Beauty & Personal Care</option>
+            <option class="options">Books</option>
+            <option class="options">Boy's Fashion</option>
+            <option class="options">Computers</option>
+            <option class="options">Deals</option>
+            <option class="options">Digital Music</option>
+            <option class="options">Electronics</option>
+            <option class="options">Girl's Fashion</option>
+            <option class="options">Health & Household</option>
+            <option class="options">Home & Kitchen</option>
+            <option class="options">Industrial & Scientific</option>
+            <option class="options">Kindle Store</option>
+            <option class="options">Luggage</option>
+            <option class="options">Men's Fashion</option>
+            <option class="options">Movies & TV</option>
+          </select>
+
+          <input
+            type="text"
+            placeholder="Search Amazon"
+            id="searchbar"
+            class="search_input"
+          />
+
+          <div class="search_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="nav_lan border">
+          <img src="usflag.jpg" alt="flag " class="usflag"/>
+          EN
+        </div>
+
+        <div class="nav_signin border">
+          <p><span>Hello, Sign in</span></p>
+          <p class="nav_second">Accounts & Lists</p>
+        </div>
+
+        <div class="nav_returnsorders border">
+          <p><span>Returns</span></p>
+          <p class="nav_second">& Orders</p>
+        </div>
+
+        <div class="nav_cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          cart
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel_all">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+
+        <div class="panel_ops">
+          <p>Todays Deals</p>
+          <p>Customer Services</p>
+          <p>Registry</p>
+          <p>Gifts Cards</p>
+          <p>Sell</p>
+        </div>
+
+        <div class="panel_deals">
+          <p>Shop deals in Electronics</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero_section">
+      <div class="hero_message">
+        <p>
+          You are on amazon.com. You can also shop on Amazon India for millions
+          of products with fast local delivery.
+          <a href="https://www.amazon.in/"> Click here to go to amazon.in</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="shop_container">
+      <div class="shop_section1 shop_section">
+        <div class="box1 box">
+          <h2 class="boxtitle">Shop for your home essentials</h2>
+          <div class="box_image">
+            <img src="box1_image.jpg" alt="box1_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Discover more in Home</a>
+          </div>
+        </div>
+        <div class="box2 box">
+          <h2 class="boxtitle">Get your game on</h2>
+          <div class="box_image">
+            <img src="box2.jpg" alt="box1_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Shop gaming</a>
+          </div>
+        </div>
+        <div class="box3 box">
+          <h2 class="boxtitle">Top items in Kitchen appliances</h2>
+          <div class="box_image3">
+            <div class="image3_1">
+              <img src="image3_1.jpg" alt="box1_image" />
+            </div>
+
+            <div class="image3_2">
+              <img src="image3_2-1.jpg" alt="box3_image" />
+              <img src="image3_2-2.jpg" alt="box3_image" />
+              <img src="image3_2-3.jpg" alt="box3_image" />
+            </div>
+          </div>
+          <div class="Discover_box">
+            <a href="">Explore all products in kitchen</a>
+          </div>
+        </div>
+        <div class="box4 box">
+          <h2 class="boxtitle">New year, new suplies</h2>
+          <div class="box_image">
+            <img src="box4.jpg" alt="box1_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Shop office products</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop_section1 shop_section">
+        <div class="box5 box">
+          <h2 class="boxtitle">Makeup</h2>
+          <div class="box_image">
+            <img src="box5_image.jpg" alt="box5_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Discover cosmetics </a>
+          </div>
+        </div>
+        <div class="box6 box">
+          <h2 class="boxtitle">Health & Personal Care</h2>
+          <div class="box_image">
+            <img src="box6_image.jpg" alt="box6_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Shop personal care item</a>
+          </div>
+        </div>
+        <div class="box7 box">
+          <h2 class="boxtitle">Furniture</h2>
+          <div class="box_image">
+            <img src="box7_image.jpg" alt="box1_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Explore Furniture Trends</a>
+          </div>
+        </div>
+        <div class="box8 box">
+          <h2 class="boxtitle">Phones</h2>
+          <div class="box_image">
+            <img src="box8_image.jpg" alt="box8_image" />
+          </div>
+          <div class="Discover_box">
+            <a href="">Shop Phones</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="adjust"></div>
+    </div>
+
+    <footer>
+      <div class="foot_panel1">Back to Top</div>
+
+      <div class="foot_panel2">
+       <div class="foot_panel2_container">
+        <ul class="list">
+          <li class="category">Get to Know Us</li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">About Amazon</a></li>
+          <li><a href="">Investor Relation</a>s</li>
+          <li><a href="">Amazon Devices</a></li>
+          <li><a href="">Amazon Science</a></li>
+        </ul>
+
+        <ul class="list">
+          <li class="category">Make MOney with Us</li>
+          <li><a href="">Sell products on Amazon</a></li>
+          <li><a href=""><a href="">Sell on Amazon Business</a></a></li>
+          <li><a href="">Sell apps on Amazon</a></li>
+          <li><a href="">Become an Affilate</a></li>
+          <li><a href="">Advertise Your Products</a></li>
+          <li><a href="">Sell-Publish with Us</a></li>
+          <li><a href="">Host an Amazon Hub</a></li>
+        </ul>
+
+        <ul class="list">
+          <li class="category">Amazon Payment Products</li>
+          <li><a href="">Amazon Business Cards</a></li>
+          <li><a href="">Shop with Points</a></li>
+          <li><a href="">Reload Your Balance</a></li>
+          <li><a href="">Amazon Currency Converter</a></li>
+        </ul>
+
+        <ul class="list">
+          <li class="category">Let Us Help You</li>
+          <li><a href="">Amazon and Covid-19</a></li>
+          <li><a href="">Your Account</a></li>
+          <li><a href="">Your Orders</a></li>
+          <li>
+            <pre>
+<a href="">Shipping Rates & 
+Policies</a></pre
+            >
+          </li>
+          <li>
+            <pre>
+<a href="">Returns &
+Replacements</a></pre
+            >
+          </li>
+          <li>
+            <pre>
+<a href="">Manage Your 
+Content aend Device</a></pre
+            >
+          </li>
+          <li><a href="">Help</a></li>
+        </ul>
+       </div>
+      </div>
+
+      <div class="footer_line"></div>
+
+      <div class="footer_panel3">
+        <div class="box_container">
+          <div class="box_continer1">
+            <div class="logo_box">
+              <img src="amazon_logo.png" alt="amazon_logo" />
+            </div>
+          </div>
+          <div class="box_container2">
+            <div class="footer_box1">
+              <div class="footer_box1A">
+                <i class="fa-solid fa-globe"></i> <p>English</p>
+              </div>
+              <div class="footer_box1B">
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="footer_box2"><p>$ USD-U.S.Dollar</p></div>
+            <div class="footer_box3">
+              <div class="footer_box3A">
+                <img src="usflag.jpg" class="us_flag" alt="us_flag" />
+              </div>
+              <div class="footer_box3B">United States</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_line2"></div>
+
+
+
+
+
+
+
+      <div class="footer_panel4">
+        <div class="panel4_container">
+          <div class="panel4_container_box">
+            <div class="panel4_category"><p>Amazon Music</p></div>
+            <ul class="panel4_container_list">
+        <li><a href=""><pre>Stream millions
+of songs</pre></a></li>
+              
+            </ul>
+          </div>
+          <div class="panel4_container_box">
+            <div class="panel4_category"><p>Amazon Ads</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Reach customers 
+Wherever they 
+spend their time
+            </pre></a></li>
+           
+          </ul></div>
+
+          <div class="panel4_container_box">
+            <div class="panel4_category"><p>6PM</p>
+            </div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Score deals 
+on fashion brands</pre></a></li>
+            
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>AdeBooks</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""> <pre>Books,arts
+& collection</pre>
+            </a></li>
+          
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>ACX</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Audiobook
+Publishing
+Made Easy</pre>
+            </a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Sell on Amazon</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Strart a Selling 
+              Account</pre></a></li>
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Veeqo</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Shipping Software
+Inventory
+Management</pre>
+          </a></li>
+
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Amazon Business</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Everithing For
+Your Busines</pre>
+            </a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>AmazonGlobal</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Ship Orders
+Internationaly</pre>
+            </a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Amazon Web </p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Scalable Cloud
+Computing
+Services</pre>
+            </a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Audible</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Listen to Books &
+Original
+Audio
+Perfomance
+            </pre>
+          
+            </a></li>
+          
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Box Office Mojo</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Find Movie
+Box Office Data
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Gooddreads</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Book reviews
+&
+recommendations
+            </pre></a></li>
+            
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>IMDb</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>MOvies,TV
+&Celebrities
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>IMDbPro</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Get INfo
+Entertainment
+Professional Need
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Kindle Publishing</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Indie Digita &
+Print Publishing 
+Made Easy
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Prime Video Direct</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Video Distribution
+Made Easy
+            </pre></a></li>
+            
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Shopbop</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Designer
+Fashion Brands
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Woot!</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Deals and 
+Shenanigans
+            </pre></a></li>
+            
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Zappos</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Shoes %
+Clothing
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Ring</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Smart Home
+Secuirity Systems
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>eero WiFi</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Stream 4K Video 
+in Every Room
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Blink</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Smart Secuirity
+for Every Home
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Neighbour App</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Real-Time Crime
+& Safety Alerts
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>Amazon Subscription</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Top Subscription
+boxes-right to 
+your door
+            </pre></a></li>
+           
+          </ul></div>
+          <div class="panel4_container_box"><div class="panel4_category"><p>PillPack</p></div>
+          <ul class="panel4_container_list">
+            <li><a href=""><pre>Pharmacy
+Sim
+            </pre></a></li>
+            
+          </ul></div>
+        </div>
+      </div>
+
+
+
+      <div class="footer_panel5">
+      <div class="footer_panel5_content1">
+        <div class="footer_panel5_box"><a href="">Condition of Use</a></div>
+        <div class="footer_panel5_box"><a href="">Privacy Notice</a></div>
+        <div class="footer_panel5_box"><a href="">Consumer Health Data Privacy</a></div>
+        <div class="footer_panel5_box"><a href="">Your Ads Privacy Choices</a></div>
+      </div>
+
+      <div class="footer_panel5_content2">
+        <div class="footer_panel5_box"><pre>©  1996-2025 , Amazon.com , Inc.  or its affiliates</pre></div>
+      </div>
+      </div>
+
+
+
+
+    </footer>
+  </body>
+</html>
